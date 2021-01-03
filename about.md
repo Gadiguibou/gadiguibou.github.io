@@ -1,29 +1,18 @@
 ---
 layout: page
-title: About
+title: About Me
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  Hey there! Thanks for checking out my personal website. If you want to discuss some of the things included here, or communicate with me for any other reason, don't hesitate to do so. ☺️
 </p>
 
-In the novel, *The Strange Case of Dr. Jekyll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+I am a McGill software engineering student. I am currently learning machine learning, HDLs, x86 assembly and how to write compilers, Coq (and Mandarin Chinese).
 
-There are currently two themes built on Poole:
+I am interested in artificial intelligence, programming languages (type systems, memory management, etc.), algorithms, game theory and mathematics in general, philosophy, physics, chess & poker.
 
-- [Hyde](https://hyde.getpoole.com)
-- [Lanyon](https://lanyon.getpoole.com)
+I also like to spend time listening to music, reading novels and Hacker News, running, swimming, or climbing.
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+If you like music too, you can find my main playlist [here](https://open.spotify.com/playlist/4kqdYN4QThlbw1iiXvn0X2?si=M6bYh_HZRL65jfnpa696Yg).
 
-## Setup
-
-Some fun facts about the setup of this project include:
-
-- Built for [Jekyll](https://jekyllrb.com)
-- Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-- Coded with [Atom](https://atom.io), an amazing open source code editor
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+<iframe src="https://open.spotify.com/embed/playlist/4kqdYN4QThlbw1iiXvn0X2" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
