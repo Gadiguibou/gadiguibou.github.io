@@ -45,4 +45,4 @@ header_pages:
   Home: "/"
   About: "/about"
   Archive: "/archive"
-  Feed: "/atom.xml"
+  RSS Feed: "/atom.xml"
