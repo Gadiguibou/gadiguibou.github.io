@@ -10,4 +10,4 @@ The following directories and their contents are Copyright Gabriel Lacroix. You 
 
 - _posts
 
-All other directories and files use the GNU General Public License v3.0 included in the root of this repository as *LICENSE.txt*.
+All other directories and files use the GNU General Public License v3.0 included in the root of this repository as **LICENSE**.
