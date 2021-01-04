@@ -18,7 +18,7 @@ If you like music too, you can find my main playlist [here](https://open.spotify
 <iframe title="Gabriel's spotify playlist" src="https://open.spotify.com/embed/playlist/4kqdYN4QThlbw1iiXvn0X2" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 <br>
-I mostly listen to it in reverse order of date added since this is what reflects my current tastes the most.
+I mostly listen to it in reverse order of date added since this is what reflects my current tastes in music the most.
 
 Happy listening!
 
