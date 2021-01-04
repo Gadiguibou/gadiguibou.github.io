@@ -20,11 +20,13 @@ body {
 // No `:visited` state is required by default (browsers will use `a`)
 a {
   color: var(--link-color);
+  text-decoration: none;
 
   // `:focus` is linked to `:hover` for basic accessibility
   &:hover,
   &:focus {
     color: var(--link-hover-color);
+    text-decoration: underline;
   }
 
   strong {
@@ -67,4 +69,9 @@ mark {
   padding: .15rem;
   background-color: var(--yellow-100);
   border-radius: .125rem;
+}
+
+:focus {
+  outline: 4px solid var(--blue-300);
+  outline-offset: 1px;
 }
