@@ -7,9 +7,9 @@ title: About Me
   Hey there! Thanks for checking out my blog. If you want to discuss some of the things included here, or communicate with me for any other reason, don't hesitate to do so. ☺️
 </p>
 
-I am a McGill software engineering student. I am currently learning machine learning, HDLs, x86 assembly and how to write compilers, Coq (and Mandarin Chinese).
+I'm a McGill software engineering student that's curious about most things that surround me. I'm currently learning the following: machine learning, HDLs, x86 assembly, how to write compilers, Coq, and Mandarin Chinese.
 
-I am interested in artificial intelligence, programming languages (type systems, memory management, etc.), algorithms, game theory and mathematics in general, philosophy, physics, chess & poker.
+I'm interested in artificial intelligence, programming languages (type systems, memory management, etc.), algorithms, game theory and mathematics in general, philosophy, physics, chess and poker.
 
 I also like to spend time listening to music, reading novels and Hacker News, running, swimming, or climbing.
 
