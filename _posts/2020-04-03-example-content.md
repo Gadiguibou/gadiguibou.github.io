@@ -80,7 +80,13 @@ Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna m
 
 Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui.
 
-{% gist 13f94b734a4ddb132735 gist.md %}
+Using HTML:
+
+<script src="https://gist.github.com/Gadiguibou/17212ea9e097264d825010c833710704.js"></script>
+
+Using jekyll-gist:
+
+{% gist 87726af3c18ae92147c6e2ca07631c96 add_two_numbers.c %}
 
 Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper.
 
@@ -158,6 +164,14 @@ Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, conse
     </tr>
   </tbody>
 </table>
+
+(The same result can be achieved with Markdown)
+
+| New  | Test | Table |
+| ---- | ---- | ----- |
+| 1    | 2    | 3     |
+| 2    | 2    | 3     |
+| 3    | 3    | 3     |
 
 Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
 

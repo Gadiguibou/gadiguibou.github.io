@@ -17,4 +17,7 @@ If you like music too, you can find my main playlist [here](https://open.spotify
 
 <iframe title="Gabriel's spotify playlist" src="https://open.spotify.com/embed/playlist/4kqdYN4QThlbw1iiXvn0X2" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
+<br>
 Happy listening!
+
+You can find me on [GitHub](https://github.com/gadiguibou), on [Twitter](https://twitter.com/gadiguibou) or you can email me at <lacroixgabriel@gmail.com>.
