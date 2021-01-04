@@ -16,3 +16,5 @@ I also like to spend time listening to music, reading novels and Hacker News, ru
 If you like music too, you can find my main playlist [here](https://open.spotify.com/playlist/4kqdYN4QThlbw1iiXvn0X2?si=M6bYh_HZRL65jfnpa696Yg).
 
 <iframe title="Gabriel's spotify playlist" src="https://open.spotify.com/embed/playlist/4kqdYN4QThlbw1iiXvn0X2" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+Happy listening!
