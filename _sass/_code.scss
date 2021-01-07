@@ -52,6 +52,10 @@ pre {
   }
 }
 
+.gist td, .gist th {
+  border: none;
+}
+
 .highlight .hll { background-color: #ffc; }
 .highlight .c { color: #999; } /* Comment */
 .highlight .err { color: #a00; background-color: #faa } /* Error */
