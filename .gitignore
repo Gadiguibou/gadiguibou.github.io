@@ -1,5 +1,5 @@
 # Jekyll
-# _site - Now using it for deployment
+_site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
