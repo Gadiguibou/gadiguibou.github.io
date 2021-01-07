@@ -1,19 +1,17 @@
-<header class="masthead">
-  <h3 class="masthead-title">
-    <a href="{{ '/' | relative_url }}">
-      <img
-      src="{{ '/assets/header_img.png' | relative_url }}"
+<header>
+<a href="{{ '/' | relative_url }}" class="img-link">
+  <picture>
+    <source
+      srcset="{{ '/assets/images/header-img-dark.png' | relative_url }}"
+      media="(prefers-color-scheme: dark)">
+    <img
+      src="{{ '/assets/images/header-img.png' | relative_url }}"
       alt="Website Logo"
       height="96"
-      width="96" />
-    </a>
-    <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-    <small>{{ site.tagline }}</small>
-  </h3>
-  <nav>
-    {% for page in site.header_pages %}
-    <small><a href="{{ page[1] }}">{{ page[0] }}</a></small>
-    {% endfor %}
-  </nav>
-  <hr>
+      width="96">
+  </picture>
+</a>
+{% include nav.html %}
+<h2><a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a></h2>
+<p>{{ site.tagline }}</p>
 </header>

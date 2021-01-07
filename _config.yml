@@ -2,17 +2,15 @@
 title: Gabriel Lacroix
 tagline: A blog about all the small things that keep me thinking
 url: "https://www.gabriellacroix.com"
-paginate: 1
 baseurl: ""
-permalink: pretty
+permalink: none
 
 # Gems
-# TODO: Add "jekyll-seo-tag"
 plugins:
-  - jekyll-gist
-  - jekyll-paginate
+  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-last-modified-at
 
 # Optimize Jekyll
 exclude:
@@ -28,23 +26,24 @@ sass:
   sass_dir: _sass
   style: :compressed
 
+collections:
+  pages:
+    output: true
+    permalink: /:path
+  notes:
+    output: true
+
+
 # Options
 
 # Replace this value and uncomment to enable Google Analytics tracking
-ga_analytics: G-EK9QFQ0XHY
+# ga_analytics: G-EK9QFQ0XHY
+
+last-modified-at:
+  date-format: '%Y-%m-%d'
 
 # Specify the author for blog posts
 author:
   name: Gabriel Lacroix
   url: https://twitter.com/gadiguibou
   email: lacroixgabriel@gmail.com
-
-# Custom vars
-version: 3.0.0
-
-header_pages:
-  Home: "/"
-  # Feed: "/feed"
-  Archive: "/archive"
-  About: "/about"
-  RSS: "/atom.xml"

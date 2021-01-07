@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Example content
 ---
 
@@ -86,7 +86,7 @@ Using HTML:
 
 Using jekyll-gist:
 
-{% gist 87726af3c18ae92147c6e2ca07631c96 add_two_numbers.c %}
+<!-- nothing here because the plugin was uninstalled -->
 
 Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper.
 
@@ -124,7 +124,9 @@ Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo r
 Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
 
 ![placeholder](http://placehold.it/800x400 "Large example image")
+
 ![placeholder](http://placehold.it/400x200 "Medium example image")
+
 ![placeholder](http://placehold.it/200x200 "Small example image")
 
 ### Tables

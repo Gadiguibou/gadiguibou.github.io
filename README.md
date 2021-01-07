@@ -1,4 +1,4 @@
-# This is my blog's data
+# This is my wiki's data
 
 It uses [Jekyll](https://github.com/jekyll/jekyll) and GitHub Pages to generate a static site and publish it each time I push to this repository.
 
