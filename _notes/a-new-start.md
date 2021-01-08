@@ -36,7 +36,7 @@ The obligatory Daniel Caesar song, of course.
 
 [Phoenix by Gregory Porter](https://open.spotify.com/track/4k5TvYTxNgtQhbW65JKUdv?si=I0kuakjgSFOany8WA_natg)
 
-This one had me scratch my head as to where I heard it before.
+This one had me scratch my head as to where I had heard it before.
 
 I still haven't figured it out. Maybe it's just one of those songs that feels "right" from the get-go.
 
