@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Archive
 ---
 
@@ -7,13 +6,11 @@ title: Archive
 
 The wiki uses the YYYY-MM-DD time format.
 
-{% assign notesByLastModified = site.notes | group_by_exp: "note", "note.last_modified_at | date: '%Y-%m-%d'" %}
+{% assign notesByLastModified = site.notes | sort: "last_modified_at" | reverse %}
 <ul>
-{% for date in notesByLastModified %}
-  {% for note in date.items %}
+{% for note in notesByLastModified %}
     <li>
-    <a href="{{ note.url }}">{{ note.title }}</a> — last update [{{ date.name }}]
+    <a href="{{ note.url }}">{{ note.title }}</a> — last update [{{ note.last_modified_at | date: "%Y-%m-%d" }}]
     </li>
-  {% endfor %}
 {% endfor %}
 </ul>
