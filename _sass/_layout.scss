@@ -24,6 +24,47 @@ main > :last-child {
   margin-bottom: 30px;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+main ul, main ol {
+  margin: 15px 30px 0;
+}
+
+main > table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 2px 5px;
+  vertical-align: top;
+  text-align: left;
+  border: 1px solid var(--body-color);
+}
+
+// Markdown footnotes
+//
+// See the example content post for an example.
+
+// Footnote number within body text
+a[href^="#fn:"],
+// Back to footnote link
+a[href^="#fnref:"] {
+  margin-left: .1rem;
+}
+
+// List of footnotes
+.footnotes {
+  margin-top: 30px;
+  font-size: 85%;
+}
+
 footer {
   margin-top: 30px;
   margin-bottom: 30px;
