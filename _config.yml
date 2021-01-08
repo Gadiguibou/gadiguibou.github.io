@@ -48,7 +48,7 @@ defaults:
 # Options
 
 # Replace this value and uncomment to enable Google Analytics tracking
-# ga_analytics: G-EK9QFQ0XHY
+ga_analytics: G-EK9QFQ0XHY
 
 last-modified-at:
   date-format: '%Y-%m-%d'
