@@ -33,6 +33,17 @@ collections:
   notes:
     output: true
 
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: "note"
 
 # Options
 
