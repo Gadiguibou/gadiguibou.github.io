@@ -44,7 +44,7 @@ I still haven't figured it out. Maybe it's just one of those songs that feels "r
 
 [Midnight by Lianne La Havas - Live At The Roundhouse](https://open.spotify.com/track/4JhXwkrqCelFuWaGzWemMa?si=l8iPyROEQOKDhAMXojm_AQ)
 
-This one's kind of a hint at what's coming next week. I've got a lot more of her songs I'd like to share with the world.
+This one's kind of a hint at what's coming next week. I've got a lot more of her songs I'd like to discover.
 
 I'll try to keep this post short nevertheless.
 
