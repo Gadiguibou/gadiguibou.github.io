@@ -8,6 +8,7 @@ This allows me to write most of the content in mardown (which I find easier to w
 
 The following directories and their contents are Copyright Gabriel Lacroix. You may not reuse anything therein without my permission:
 
-- _posts
+- _pages
+- _notes
 
 All other directories and files use the GNU General Public License v3.0 included in the root of this repository as **LICENSE**.
