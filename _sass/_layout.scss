@@ -10,6 +10,12 @@ body {
 
 header {
   margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header > * {
+  margin-right: 30px;
 }
 
 main > * {
