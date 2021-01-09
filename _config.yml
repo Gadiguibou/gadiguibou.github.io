@@ -1,6 +1,9 @@
 # Setup
 title: Gabriel Lacroix
-tagline: A blog about all the small things that keep me thinking
+tagline: |
+  A blog about the small things that keep me awake at night thinking<br>
+  A website about life, music and terminals<br>
+  A digital garden for the mysteries and wonders of reality
 url: "https://www.gabriellacroix.com"
 baseurl: ""
 permalink: none
@@ -19,7 +22,7 @@ exclude:
   - .jekyll-cache
   - Gemfile
   - Gemfile.lock
-  - LICENSE.md
+  - LICENSE
   - README.md
 
 sass:

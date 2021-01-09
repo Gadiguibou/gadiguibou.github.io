@@ -18,6 +18,21 @@ header > * {
   margin-right: 30px;
 }
 
+header .img-link,
+header nav  {
+  flex: none;
+}
+
+header div {
+  flex: auto;
+}
+
+@media (max-width: 500px) {
+  header div {
+    display: none;
+  }
+}
+
 main > * {
   margin-top: 1em;
 }
