@@ -2,7 +2,7 @@
 title: Meta
 ---
 
-## This website is a blog, a digital playground and a personnal logging system.
+## This website is a blog, a digital playground and a wiki.
 
 It uses [Jekyll](https://github.com/jekyll/jekyll) and GitHub Pages to generate a static site and publish it each time I push to [this repository](https://github.com/Gadiguibou/gadiguibou.github.io).
 
