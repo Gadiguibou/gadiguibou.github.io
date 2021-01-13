@@ -6,7 +6,7 @@ title: Meta
 
 It uses [Jekyll](https://github.com/jekyll/jekyll) and GitHub Pages to generate a static site and publish it each time I push to [this repository](https://github.com/Gadiguibou/gadiguibou.github.io).
 
-Most of the content is therefore in markdown and gets added to a default HTML layout automatically.
+Most of the content is therefore in markdown and is added to a default HTML layout automatically.
 
 ## License
 

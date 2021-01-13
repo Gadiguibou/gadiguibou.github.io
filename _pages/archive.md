@@ -2,7 +2,7 @@
 title: Archive
 ---
 
-## The Archive shows the latest changes to the notes
+## The Archive shows the latest changes to the notes.
 
 The wiki uses the YYYY-MM-DD time format.
 

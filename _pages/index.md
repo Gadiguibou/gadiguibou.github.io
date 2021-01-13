@@ -2,7 +2,7 @@
 title: Home
 ---
 
-## Welcome visitor!
+# Welcome visitor!
 
 Here's a rhodonea curve for the pleasure of your eyes. It can be expressed in polar coordinates as: $$ r(\theta) = \cos(\frac{3}{7} \theta) $$.
 
