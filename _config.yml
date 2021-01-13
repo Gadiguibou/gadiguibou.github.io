@@ -1,9 +1,6 @@
 # Setup
 title: Gabriel Lacroix
-tagline: |
-  A blog about the small things that keep me awake at night thinking<br>
-  A website about life, music and terminals<br>
-  A digital garden for the mysteries and wonders of reality
+tagline: Books, music and terminals
 url: "https://www.gabriellacroix.com"
 baseurl: ""
 permalink: none
