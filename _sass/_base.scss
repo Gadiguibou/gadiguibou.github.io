@@ -17,10 +17,18 @@
     --code-bg: #212529;
   }
 
-  main a:before { content:"{" }
-  main a:after { content:"}" }
-  main a[target="_blank"]:before { content:"[" }
-  main a[target="_blank"]:after { content:"]" }
+  main a:before {
+    content: "{";
+  }
+  main a:after {
+    content: "}";
+  }
+  main a[target="_blank"]:before {
+    content: "[";
+  }
+  main a[target="_blank"]:after {
+    content: "]";
+  }
 }
 
 // Body resets
@@ -32,12 +40,18 @@
 }
 
 body {
-  font-family: "Alte Haas Grotesk", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   line-height: 1.6;
   color: var(--body-color);
   background-color: var(--body-bg);
   text-rendering: optimizeLegibility;
+}
+
+@supports (font-variation-settings: normal) {
+  body {
+    font-family: "Inter var", sans-serif;
+  }
 }
 
 // Links - Common
@@ -46,11 +60,13 @@ a {
   color: inherit;
 }
 
-a:hover, a:focus, ::selection {
+a:hover,
+a:focus,
+::selection {
   background-color: var(--body-color);
   color: var(--body-bg);
   text-decoration: none;
-} 
+}
 
 // Links - Main
 
@@ -58,13 +74,15 @@ main a {
   color: var(--link-color);
 }
 
-main a:hover, main a:focus {
+main a:hover,
+main a:focus {
   background-color: var(--link-color);
 }
 
 // Image Links
 
-.img-link:hover, .img-link:focus {
+.img-link:hover,
+.img-link:focus {
   background-color: inherit;
   color: inherit;
 }
