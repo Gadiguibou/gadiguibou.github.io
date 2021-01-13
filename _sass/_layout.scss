@@ -9,13 +9,14 @@ body {
 }
 
 header {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   display: flex;
   flex-wrap: wrap;
 }
 
 header > * {
   margin-right: 30px;
+  margin-bottom: 15px;
 }
 
 header .img-link,
