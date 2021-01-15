@@ -65,4 +65,6 @@ To end this post on a good note, I'd like to share this treasure of a song. No m
 
 <iframe src="https://open.spotify.com/embed/track/6BzQnbYMiASXdwTerVH3zy" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
+Here's [the full playlist](https://open.spotify.com/playlist/1YduvE7BdostXlHnf6gra2?si=EV2ZstU1QpGGloh5rehanA) for anyone interested.
+
 Have a good week! 🙂
