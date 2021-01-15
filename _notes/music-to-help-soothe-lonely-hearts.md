@@ -2,6 +2,8 @@
 title: Music To Help Soothe Lonely Hearts
 ---
 
+![Adrianne Lenker's Tiny Desk (Home) Concert](/assets/images/adrianne-lenker-tiny-desk.png)
+
 Another week of 2020 has gone by and things have been, well, strange. I haven't been able to tell whether we're headed somewhere much worse or much better.
 
 As a new semester begins, I might not have as much time to listen to music as I did these past weeks. As such, this may be my most prolific week of the next two to three months (with regards to how much music I listen to at least).
@@ -14,7 +16,7 @@ This is probably the song that moved me the most this week.
 
 <iframe src="https://open.spotify.com/embed/track/4PwWESSlTwzvw9B7bmtTLS" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-The honesty and sensitivity in Adrianne Lenker's voice is unsettling. The lyrics also contribute to the beauty of the song:
+The sensitivity in Adrianne Lenker's voice is unsettling. The lyrics also contribute to the beauty of the song:
 
 > And I don’t wanna talk about anything\\
 > I don’t wanna talk about anything\\
