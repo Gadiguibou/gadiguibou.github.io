@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang=" en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?G-EK9QFQ0XHY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-EK9QFQ0XHY');
+  </script>
+  
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>
+    
+    Windows 10 Tweaks To Make It Bearable - Gabriel Lacroix
+    
+  </title>
+
+  <link rel="stylesheet" href="/assets/css/styles.css">
+
+  <!-- Begin Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+  <meta name="apple-mobile-web-app-title" content="Gabriel's Website">
+  <meta name="application-name" content="Gabriel's Website">
+  <meta name="msapplication-TileColor" content="#2d89ef">
+  <meta name="theme-color" content="#ffffff">  
+  <!-- End Icons -->
+
+  <!-- Begin MathJax -->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        processEscapes: true
+      }
+    });
+  </script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+    type="text/javascript" defer>
+  </script>
+  <!-- End MathJax -->
+
+  <link type="application/atom+xml" rel="alternate" href="https://www.gabriellacroix.com/feed.xml" title="Gabriel Lacroix" />
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Windows 10 Tweaks To Make It Bearable | Gabriel Lacroix</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Windows 10 Tweaks To Make It Bearable" />
+<meta name="author" content="Gabriel Lacroix" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Step 1: Remove All Bundled Apps (except the Store)" />
+<meta property="og:description" content="Step 1: Remove All Bundled Apps (except the Store)" />
+<link rel="canonical" href="https://www.gabriellacroix.com/notes/windows-10-tweaks-to-make-it-bearable.html" />
+<meta property="og:url" content="https://www.gabriellacroix.com/notes/windows-10-tweaks-to-make-it-bearable.html" />
+<meta property="og:site_name" content="Gabriel Lacroix" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-01-17T21:38:31-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Windows 10 Tweaks To Make It Bearable" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","url":"https://www.gabriellacroix.com/notes/windows-10-tweaks-to-make-it-bearable.html","headline":"Windows 10 Tweaks To Make It Bearable","dateModified":"2021-01-17T21:26:20-05:00","datePublished":"2021-01-17T21:38:31-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.gabriellacroix.com/notes/windows-10-tweaks-to-make-it-bearable.html"},"author":{"@type":"Person","name":"Gabriel Lacroix"},"description":"Step 1: Remove All Bundled Apps (except the Store)","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+<body>
+
+  <header>
+<a href="/" class="img-link">
+  <picture>
+    <source
+      srcset="/assets/images/header-img-dark.png"
+      media="(prefers-color-scheme: dark)">
+    <img
+      src="/assets/images/header-img.png"
+      alt="Website Logo"
+      height="100"
+      width="100">
+  </picture>
+</a>
+<nav>
+  <ol>
+    
+    <li><a href="/">Home</a></li>
+    
+    <li><a href="/archive.html">Archive</a></li>
+    
+    <li><a href="/about.html">About</a></li>
+    
+    <li><a href="/meta.html">Meta</a></li>
+    
+  </ol>
+</nav>
+<div>
+  <h2><a href="/" title="Home">Gabriel Lacroix</a></h2>
+  <p>Books, music and terminals</p>
+</div>
+</header>
+
+  <hr>
+
+  <main>
+    <h1>Windows 10 Tweaks To Make It Bearable</h1>
+
+<h2 id="step-1-remove-all-bundled-apps-except-the-store">Step 1: Remove All Bundled Apps (except the Store)</h2>
+
+<p>In an admin powershell enter:</p>
+
+<div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Get-AppxPackage</span><span class="w"> </span><span class="nt">-AllUsers</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="n">where-object</span><span class="w"> </span><span class="p">{</span><span class="bp">$_</span><span class="o">.</span><span class="nf">name</span><span class="w"> </span><span class="err">–</span><span class="n">notlike</span><span class="w"> </span><span class="s2">"*store*"</span><span class="p">}</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="n">Remove-AppxPackage</span><span class="w">
+</span></code></pre></div></div>
+
+<h2 id="step-2-disable-telemetry">Step 2: Disable Telemetry</h2>
+
+<h3 id="method-1---regedit">Method #1 - regedit</h3>
+
+<p>Create a new DWORD (32 bit) in <code class="language-plaintext highlighter-rouge">HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DataCollection</code> named <code class="language-plaintext highlighter-rouge">AllowTelemetry</code> with a value of <code class="language-plaintext highlighter-rouge">0</code>.</p>
+
+<h3 id="method-2---servicesmsc">Method #2 - services.msc</h3>
+
+<p>Set Connected User Experiences and Telemetry’s startup type to Disabled.</p>
+
+<h2 id="step-3-if-i-have-access-to-the-group-policy-editor">Step 3: If I Have Access To The Group Policy Editor</h2>
+
+<h3 id="cortana-and-windows-search">Cortana and Windows Search</h3>
+
+<p>In <code class="language-plaintext highlighter-rouge">(Computer Configuration\Administrative Templates\Windows Components\Search)</code>:</p>
+
+<ul>
+  <li>Disable “Allow Cortana”.</li>
+  <li>Disable “Prevent automatically adding shared folders to the Windows Search index”.</li>
+  <li>Enable “Don’t search the web or display web results in search”.</li>
+</ul>
+
+<h3 id="data-collection-and-preview-builds">Data Collection and Preview Builds</h3>
+
+<p>In <code class="language-plaintext highlighter-rouge">(Computer Configuration\Administrative Templates\Windows Components\Data Collection and Preview Builds)</code>:</p>
+
+<ul>
+  <li>Enable “Allow Telemetry” and set it to “0 - Off [Enterprise Only]”.</li>
+  <li>Enable “Do not show feedback notifications”.</li>
+</ul>
+
+<h3 id="wifi-sense">WiFi Sense</h3>
+
+<p>In <code class="language-plaintext highlighter-rouge">(Computer Configuration\Administrative Templates\Network\WLAN Service\WLAN Settings\)</code>:</p>
+
+<ul>
+  <li>Disable “Allow Windows to automatically connect to suggested open hotspots, to networks shared by contacts, and to hotspots offering paid services”.</li>
+</ul>
+
+<h3 id="microsoft-data-collection">Microsoft Data Collection</h3>
+
+<p>In <code class="language-plaintext highlighter-rouge">(Computer Configuration\Administrative Templates\Windows Components\Application Compatibility)</code>:</p>
+
+<ul>
+  <li>Enable “Turn off Application Telemetry”.</li>
+  <li>Enable “Turn off Inventory Collector”.</li>
+</ul>
+
+<h3 id="microsoft-customer-experience">Microsoft Customer Experience</h3>
+
+<ul>
+  <li>Enable “Turn off Microsoft consumer experiences”.</li>
+</ul>
+
+<h2 id="step-4-registry-hacks">Step 4: Registry Hacks</h2>
+
+<ul>
+  <li>Create a new DWORD (32-bit) in <code class="language-plaintext highlighter-rouge">HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\Current\Version\Explorer\Advanced</code> named <code class="language-plaintext highlighter-rouge">LastActiveClick</code> with a value of <code class="language-plaintext highlighter-rouge">1</code>.</li>
+  <li>Create a new DWORD (32-bit) in <code class="language-plaintext highlighter-rouge">HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Personalization</code> named <code class="language-plaintext highlighter-rouge">NoLockScreen</code> with a value of <code class="language-plaintext highlighter-rouge">1</code>.</li>
+  <li>Create a new DWORD (32-bit) in <code class="language-plaintext highlighter-rouge">HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation</code> named <code class="language-plaintext highlighter-rouge">RealTimeIsUniversal</code> with a value of <code class="language-plaintext highlighter-rouge">1</code>.
+    <ul>
+      <li>This makes Windows use UTC which is useful when dual-booting MacOS or Linux.</li>
+    </ul>
+  </li>
+  <li>Create a new DWORD (32-bit) in <code class="language-plaintext highlighter-rouge">HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System</code> named <code class="language-plaintext highlighter-rouge">DisableLogonBackgroundImage</code> with a value of <code class="language-plaintext highlighter-rouge">1</code>.</li>
+  <li>Create a new DWORD (32-bit) in <code class="language-plaintext highlighter-rouge">HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Windows Error Reporting</code> named <code class="language-plaintext highlighter-rouge">Disabled</code> with a value of <code class="language-plaintext highlighter-rouge">1</code>.</li>
+  <li>Create a new DWORD (32-bit) in <code class="language-plaintext highlighter-rouge">HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced</code> named <code class="language-plaintext highlighter-rouge">LaunchTo</code> with a value of <code class="language-plaintext highlighter-rouge">1</code>.
+    <ul>
+      <li>Opens File Explorer on This PC by default.</li>
+    </ul>
+  </li>
+  <li>Create a new DWORD (32-bit) in <code class="language-plaintext highlighter-rouge">HKEY_CURRENT_USER\Control Panel\Desktop</code> named <code class="language-plaintext highlighter-rouge">JPEGImportQuality</code> with a value of <code class="language-plaintext highlighter-rouge">100</code>.</li>
+  <li>Create a new DWORD (32-bit) in <code class="language-plaintext highlighter-rouge">HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search]</code> named <code class="language-plaintext highlighter-rouge">AllowCortana</code> with a value of <code class="language-plaintext highlighter-rouge">0</code>.</li>
+  <li>Create a new DWORD (32-bit) in <code class="language-plaintext highlighter-rouge">HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search]</code> named <code class="language-plaintext highlighter-rouge">DisableWebSearch</code> with a value of <code class="language-plaintext highlighter-rouge">1</code>.</li>
+  <li>Create a new DWORD (32-bit) in <code class="language-plaintext highlighter-rouge">HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer</code> named <code class="language-plaintext highlighter-rouge">DisableSearchBoxSuggestions</code> with a value of <code class="language-plaintext highlighter-rouge">1</code>.</li>
+</ul>
+
+<h2 id="wrapping-up">Wrapping up</h2>
+
+<p>You can check <a href="https://github.com/bmrf/tron">this</a> and <a href="https://github.com/W4RH4WK/Debloat-Windows-10">that</a> out as well.</p>
+
+
+<p><i>Last updated on <a href="/archive"><time datetime="2021-01-17T21:26:20-05:00">2021-01-17</time></a>.</i></p>
+  </main>
+
+  <hr>
+
+  <footer>
+  <small>
+    &copy; <time datetime="2021-01-17T21:38:31-05:00">2021</time>. All rights reserved.
+  </small>
+</footer>
+
+</body>
+
+</html>
