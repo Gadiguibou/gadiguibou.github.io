@@ -2,7 +2,7 @@
 title: Space Songs
 ---
 
-![A frame from Cowboy Bebop's Asteroid Blues episode](/assets/images/see-you-space-cowboy.jpeg)
+![A frame from Cowboy Bebop's Asteroid Blues episode](/assets/images/see-you-space-cowboy.jpg)
 
 This week, I rediscovered Cowboy Bebop's incredible soundtrack that's now[^fn-cowboy-bebop-on-spotify] available in its entirety on Spotify! 🥳
 

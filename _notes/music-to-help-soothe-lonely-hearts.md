@@ -2,7 +2,7 @@
 title: Music To Help Soothe Lonely Hearts
 ---
 
-![Adrianne Lenker's Tiny Desk (Home) Concert](/assets/images/adrianne-lenker-tiny-desk.png)
+![Adrianne Lenker's Tiny Desk (Home) Concert](/assets/images/adrianne-lenker-tiny-desk.jpg)
 
 Another week of 2020 has gone by and things have been, well, strange. I haven't been able to tell whether we're headed somewhere much worse or much better.
 
