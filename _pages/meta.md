@@ -14,5 +14,6 @@ The following directories of the repository and their contents are Copyright Gab
 
 - _pages
 - _notes
+- assets/images
 
 All other directories and files use [the GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html). 
