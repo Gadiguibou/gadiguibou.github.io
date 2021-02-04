@@ -1,5 +1,6 @@
 ---
 title: Home
+katex: True
 ---
 
 # Welcome visitor!

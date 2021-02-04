@@ -33,23 +33,20 @@
   <meta name="apple-mobile-web-app-title" content="Gabriel's Website">
   <meta name="application-name" content="Gabriel's Website">
   <meta name="msapplication-TileColor" content="#2d89ef">
-  <meta name="theme-color" content="#ffffff">  
+  <meta name="theme-color" content="#ffffff">
   <!-- End Icons -->
 
-  <!-- Begin MathJax -->
-  <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      tex2jax: {
-        inlineMath: [['$','$'], ['\\(','\\)']],
-        processEscapes: true
-      }
-    });
-  </script>
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-    type="text/javascript" defer>
-  </script>
-  <!-- End MathJax -->
+  {% if page.katex %}
+  <!-- Begin KaTeX -->
+  <link rel="stylesheet" href="/assets/plugins/katex@0.12.0/katex.min.css">
+
+  <!-- The loading of KaTeX is deferred to speed up page rendering -->
+  <script defer src="/assets/plugins/katex@0.12.0/katex.min.js"></script>
+  <!-- To automatically render math in text elements, include the auto-render extension: -->
+  <script defer src="/assets/plugins/katex@0.12.0/contrib/auto-render.min.js"
+    onload="renderMathInElement(document.body);"></script>
+  <!-- End KaTeX -->
+  {% endif %}
 
   {% feed_meta %}
   {% seo %}
