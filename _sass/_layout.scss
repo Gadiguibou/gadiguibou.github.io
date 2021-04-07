@@ -9,7 +9,6 @@ body {
 }
 
 header {
-  margin-bottom: 15px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -24,14 +23,24 @@ header nav  {
   flex: none;
 }
 
-header div {
+header .site-title {
   flex: auto;
 }
 
 @media (max-width: 500px) {
-  header div {
+  header .site-title {
     display: none;
   }
+}
+
+.search-div input {
+  width: 100%;
+  padding: 5px 10px;
+  border: 2px solid var(--body-color);
+}
+
+.search-div ul {
+  margin: 15px 30px;
 }
 
 main > * {
