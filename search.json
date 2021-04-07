@@ -1,0 +1,116 @@
+[
+  
+    {
+      "title"            : "A Mixtape For Walking Around The City",
+      "category"         : "",
+      "tags"             : "",
+      "url"              : "/notes/a-mixtape-for-walking-around-the-city.html",
+      "last_modified_at" : "2021-01-29",
+      "content"          : "I had a lot more time to listen to music this week. The result is quite satisfying, I have about 25 new songs from just the last 6 days.I also took some time to remove duplicate songs and songs I wasn’t too sure about from my main playlist on Spotify.Here goes this week’s playlist. Perfect for walking around the city while forgetting about everything else.2021 Weekly Playlist - Week 3Reptilia by The StrokesCatavento by Dave GrusinSONGS ABOUT YOU by CHIKAStay Alive by MustafaThis one is so mellow and sweet. It never fails to put a smile on my face. 😊My Song by Labi SiffreAgua de Beber by Antônio Carlos Jobim, Astrud Gilberto and Marty PaichDean Town by VulfpeckMascaram Sebata by Mulatu Astatke and Black Jesus ExperienceHere’s the full playlist."
+    } ,
+  
+    {
+      "title"            : "A New Start",
+      "category"         : "",
+      "tags"             : "",
+      "url"              : "/notes/a-new-start.html",
+      "last_modified_at" : "2021-01-09",
+      "content"          : "There had to be a first post on here, so here goes nothing.What better way to start off the new year (2021) than with some fresh (and some not so fresh) finds.2021 Weekly Playlist - Week 0Better by Cody Fry, Cory Wong, DynamoSomeone Like You by AdeleHome by Cory WongCall Your Name by ToraLOVE AGAIN by Daniel CaesarThe obligatory Daniel Caesar song, of course.Concorde by Gregory PorterPhoenix by Gregory PorterThis one had me scratch my head as to where I had heard it before.I still haven’t figured it out. Maybe it’s just one of those songs that feels “right” from the get-go.Midnight by Lianne La Havas - Live At The RoundhouseThis one’s kind of a hint at what’s coming next week. I’ve got a lot more of her songs I’d like to discover.I’ll try to keep this post short nevertheless.Here’s the full playlist for anyone interested."
+    } ,
+  
+    {
+      "title"            : "Example content",
+      "category"         : "",
+      "tags"             : "",
+      "url"              : "/notes/example-content.html",
+      "last_modified_at" : "2021-01-08",
+      "content"          : "Howdy! This is an example blog post that shows several types of HTML content supported in this theme.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.  Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.Inline HTML elementsHTML defines a long list of available inline tags, a complete list of which can be found on the Mozilla Developer Network.  To bold text, use &lt;strong&gt;.  To italicize text, use &lt;em&gt;.  To highlight, use &lt;mark&gt;.  Abbreviations, like HTML should use &lt;abbr&gt;, with an optional title attribute for the full phrase.  Citations, like — Mark Otto, should use &lt;cite&gt;.  Deleted text should use &lt;del&gt; and inserted text should use &lt;ins&gt;.  Superscript text uses &lt;sup&gt; and subscript text uses &lt;sub&gt;.Most of these elements are styled by browsers with few modifications on our part.FootnotesFootnotes are supported as part of the Markdown syntax. Here’s one in action. Clicking this number1 will lead you to a footnote. The syntax looks like:Clicking this number[^fn-sample_footnote]Each footnote needs the ^fn- prefix and a unique ID to be referenced for the footnoted content. The syntax for that list looks something like this:[^fn-sample_footnote]: Handy! Now click the return link to go back.You can place the footnoted content wherever you like. Markdown parsers should properly place it at the bottom of the post.HeadingVivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.CodeInline code is available with the &lt;code&gt; element. Snippets of multiple lines of code are supported through Rouge. Longer lines will automatically scroll horizontally when needed. You may also use code fencing (triple backticks) for rendering code.// Example can be run directly in your JavaScript console// Create a function that takes two arguments and returns the sum of those argumentsvar adder = new Function(\"a\", \"b\", \"return a + b\");// Call the functionadder(2, 6);// &gt; 8You may also optionally show code snippets with line numbers. Add linenos to the Rouge tags.12345678// Example can be run directly in your JavaScript console// Create a function that takes two arguments and returns the sum of those argumentsvar adder = new Function(\"a\", \"b\", \"return a + b\");// Call the functionadder(2, 6);// &gt; 8Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.Gists via GitHub PagesVestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui.Using HTML:Using jekyll-gist:Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper.ListsCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.  Praesent commodo cursus magna, vel scelerisque nisl consectetur et.  Donec id elit non mi porta gravida at eget metus.  Nulla vitae elit libero, a pharetra augue.Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.  Vestibulum id ligula porta felis euismod semper.  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.  Maecenas sed diam eget risus varius blandit sit amet non magna.Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.  HyperText Markup Language (HTML)  The language used to describe and define the content of a Web page  Cascading Style Sheets (CSS)  Used to describe the appearance of Web content  JavaScript (JS)  The programming language used to build advanced Web sites and applicationsInteger posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.ImagesQuisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.TablesAenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.            Name      Upvotes      Downvotes                  Totals      21      23                  Alice      10      11              Bob      4      3              Charlie      7      9      (The same result can be achieved with Markdown)            New      Test      Table                  1      2      3              2      2      3              3      3      3      Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.            Handy! Now click the return link to go back. &#8617;      "
+    } ,
+  
+    {
+      "title"            : "Music To Help Soothe Lonely Hearts",
+      "category"         : "",
+      "tags"             : "",
+      "url"              : "/notes/music-to-help-soothe-lonely-hearts.html",
+      "last_modified_at" : "2021-02-02",
+      "content"          : "Another week of 2020 has gone by and things have been, well, strange. I haven’t been able to tell whether we’re headed somewhere much worse or much better.As a new semester begins, I might not have as much time to listen to music as I did these past weeks. As such, this may be my most prolific week of the next two to three months (with regards to how much music I listen to at least).2021 Weekly Playlist - Week 1This is probably the song that moved me the most this week.anything by Adrianne LenkerThe sensitivity in Adrianne Lenker’s voice is unsettling. The lyrics also contribute to the beauty of the song:  And I don’t wanna talk about anythingI don’t wanna talk about anythingI wanna kiss, kiss your eyes againWanna witness your eyеs lookingI don’t wanna talk about anyoneI don’t wanna talk about anyoneI wanna sleep in your car while you’rе drivingLay in your lap when I’m cryingLover, You Should’ve Come Over by Jeff BuckleyWe change repertoire with a group that was completely new to me: “Tank and The Bangas”.Ants by Tank and The BangasNovember Has Come by GorillazThis song had always been one of my favorite off Gorillaz’s Demon Days, but I never realized it was DOOM rapping these verses. In homage to the illest villain.Vaudeville Villain by Viktor VaughnAnother DOOM song I rediscovered recently.Bittersweet - Full Length by Lianne La HavasA little bit more of Lianne La Havas from last week.Need You Tonight by INXSNo matter how many times I’ve listened to this one, it still sends chills down my spine.The Sun Is In Your Eyes - Voice Memo by Jacob CollierHere’s the full playlist."
+    } ,
+  
+    {
+      "title"            : "New Songs To Drown Out The Noise",
+      "category"         : "",
+      "tags"             : "",
+      "url"              : "/notes/new-songs-to-drown-the-noise.html",
+      "last_modified_at" : "2021-02-06",
+      "content"          : "I was really tired this week. I’m not sure if I got sick.2021 Weekly Playlist - Week 4Too Good by Arlo ParksCranes in the Sky by SolangeA Nível De… by João BoscoWhat Kinda Music by Tom Misch, Yussef DayesDon’t Leave Me This Way by Harold Melvin, The Blue Notes, Teddy PendergrassLove and Happiness by Al GreenRhymes Like Dimes by MF DOOM, DJ Cucumber SliceGrace And Mercy by Immanuel WilkinsJust some really good jazz.Here’s the full playlist."
+    } ,
+  
+    {
+      "title"            : "Space Songs",
+      "category"         : "",
+      "tags"             : "",
+      "url"              : "/notes/space-songs.html",
+      "last_modified_at" : "2021-02-02",
+      "content"          : "This week, I rediscovered Cowboy Bebop’s incredible soundtrack that’s now1 available in its entirety on Spotify! 🥳Of course, there were many other discoveries, but it’s probably what I listened to the most this week.2021 Weekly Playlist - Week 2Cosmos by SEATBELTSSpokey Dokey by SEATBELTSRoad Of The Lonely Ones by MadlibOnce A Day by Mac MillerI also revisited the two Mac Miller albums Swimming and Circles. Both are mellow masterpieces.Walkin’ Back to Georgia by Jim CrocePut Your Records On by Corinne Bailey RaeRehab by Amy WinehousePick Up The Pieces - Live at Montreux 1977 by Average White BandAs always, here’s the full playlist.            Actually it’s been available there since 24-07-2020 but I only learned about it recently. &#8617;      "
+    } ,
+  
+    {
+      "title"            : "Windows 10 Tweaks To Make It Bearable",
+      "category"         : "",
+      "tags"             : "",
+      "url"              : "/notes/windows-10-tweaks-to-make-it-bearable.html",
+      "last_modified_at" : "2021-01-17",
+      "content"          : "Step 1: Remove All Bundled Apps (except the Store)In an admin powershell enter:Get-AppxPackage -AllUsers | where-object {$_.name –notlike \"*store*\"} | Remove-AppxPackageStep 2: Disable TelemetryMethod #1 - regeditCreate a new DWORD (32 bit) in HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\DataCollection named AllowTelemetry with a value of 0.Method #2 - services.mscSet Connected User Experiences and Telemetry’s startup type to Disabled.Step 3: If I Have Access To The Group Policy EditorCortana and Windows SearchIn (Computer Configuration\\Administrative Templates\\Windows Components\\Search):  Disable “Allow Cortana”.  Disable “Prevent automatically adding shared folders to the Windows Search index”.  Enable “Don’t search the web or display web results in search”.Data Collection and Preview BuildsIn (Computer Configuration\\Administrative Templates\\Windows Components\\Data Collection and Preview Builds):  Enable “Allow Telemetry” and set it to “0 - Off [Enterprise Only]”.  Enable “Do not show feedback notifications”.WiFi SenseIn (Computer Configuration\\Administrative Templates\\Network\\WLAN Service\\WLAN Settings\\):  Disable “Allow Windows to automatically connect to suggested open hotspots, to networks shared by contacts, and to hotspots offering paid services”.Microsoft Data CollectionIn (Computer Configuration\\Administrative Templates\\Windows Components\\Application Compatibility):  Enable “Turn off Application Telemetry”.  Enable “Turn off Inventory Collector”.Microsoft Customer Experience  Enable “Turn off Microsoft consumer experiences”.Step 4: Registry Hacks  Create a new DWORD (32-bit) in HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\Current\\Version\\Explorer\\Advanced named LastActiveClick with a value of 1.  Create a new DWORD (32-bit) in HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\Personalization named NoLockScreen with a value of 1.  Create a new DWORD (32-bit) in HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\TimeZoneInformation named RealTimeIsUniversal with a value of 1.          This makes Windows use UTC which is useful when dual-booting MacOS or Linux.        Create a new DWORD (32-bit) in HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\System named DisableLogonBackgroundImage with a value of 1.  Create a new DWORD (32-bit) in HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\Windows Error Reporting named Disabled with a value of 1.  Create a new DWORD (32-bit) in HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced named LaunchTo with a value of 1.          Opens File Explorer on This PC by default.        Create a new DWORD (32-bit) in HKEY_CURRENT_USER\\Control Panel\\Desktop named JPEGImportQuality with a value of 100.  Create a new DWORD (32-bit) in HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\Windows Search] named AllowCortana with a value of 0.  Create a new DWORD (32-bit) in HKEY_LOCAL_MACHINE\\SOFTWARE\\Policies\\Microsoft\\Windows\\Windows Search] named DisableWebSearch with a value of 1.  Create a new DWORD (32-bit) in HKEY_CURRENT_USER\\SOFTWARE\\Policies\\Microsoft\\Windows\\Explorer named DisableSearchBoxSuggestions with a value of 1.Wrapping upYou can check this and that out as well."
+    } 
+  
+  ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+        "title"            : "About",
+        "category"         : "",
+        "tags"             : "",
+        "url"              : "/about",
+        "last_modified_at" : "2021-01-08",
+        "content"          : "About Me\n\nI’m a McGill software engineering student who’s curious about most things that surround him. I’m currently learning the following: machine learning, HDLs, x86 assembly, how to write compilers, Coq, and Mandarin Chinese.\n\nI’m interested in artificial intelligence, programming languages (type systems, memory management, etc.), algorithms, game theory and mathematics in general, philosophy, physics, chess and poker.\n\nI also like to spend time listening to music, reading novels and Hacker News, running, swimming, or climbing.\n\nIf you like music too, you can find my main playlist here.\n\nI mostly listen to it in reverse order of date added since this is what reflects my current tastes in music the most.\n\nHappy listening!\n\nYou can find me on GitHub, on Twitter or you can email me at lacroixgabriel@gmail.com.\n"
+     
+   } ,
+  
+   {
+     
+        "title"            : "Archive",
+        "category"         : "",
+        "tags"             : "",
+        "url"              : "/archive",
+        "last_modified_at" : "2021-01-13",
+        "content"          : "The Archive shows the latest changes to the notes.\n\nThe wiki uses the YYYY-MM-DD time format.\n\n\n\n    \n    New Songs To Drown Out The Noise — last update [2021-02-06]\n    \n\n    \n    Space Songs — last update [2021-02-02]\n    \n\n    \n    Music To Help Soothe Lonely Hearts — last update [2021-02-02]\n    \n\n    \n    A Mixtape For Walking Around The City — last update [2021-01-29]\n    \n\n    \n    Windows 10 Tweaks To Make It Bearable — last update [2021-01-17]\n    \n\n    \n    A New Start — last update [2021-01-09]\n    \n\n    \n    Example content — last update [2021-01-08]\n    \n\n\n"
+     
+   } ,
+  
+   {
+     
+        "title"            : "Home",
+        "category"         : "",
+        "tags"             : "",
+        "url"              : "/index",
+        "last_modified_at" : "2021-02-03",
+        "content"          : "Welcome visitor!\n\nHere’s a rhodonea curve for the pleasure of your eyes. It can be expressed in polar coordinates as: \\(r(\\theta) = \\cos(\\frac{3}{7} \\theta)\\).\n\n\n\nSee recent changes.\n"
+     
+   } ,
+  
+   {
+     
+        "title"            : "Meta",
+        "category"         : "",
+        "tags"             : "",
+        "url"              : "/meta",
+        "last_modified_at" : "2021-02-02",
+        "content"          : "This website is a blog, a digital playground and a wiki.\n\nIt uses Jekyll and GitHub Pages to generate a static site and publish it each time I push to this repository.\n\nMost of the content is therefore in markdown and is added to a default HTML layout automatically.\n\nLicense\n\nThe following directories of the repository and their contents are Copyright Gabriel Lacroix. You may not reuse anything therein without my permission:\n\n\n  _pages\n  _notes\n  assets/images\n\n\nAll other directories and files use the GNU General Public License v3.0.\n"
+     
+   } 
+  
+]
