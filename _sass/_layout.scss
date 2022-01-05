@@ -6,6 +6,9 @@ body {
   max-width: 800px;
   padding: 0 30px;
   margin: 30px auto;
+  // This prevents the scrollbar from shifting the centered body to the left by adding padding equal
+  // to the scrollbar's width (100% of the total screen width - 100% of the available screen width).
+  padding-left: calc(30px + 100vw - 100%);
 }
 
 header {
@@ -19,7 +22,7 @@ header > * {
 }
 
 header .img-link,
-header nav  {
+header nav {
   flex: none;
 }
 
@@ -65,7 +68,8 @@ blockquote {
   margin: 2em;
 }
 
-main ul, main ol {
+main ul,
+main ol {
   margin: 15px 30px 0;
 }
 
@@ -91,7 +95,7 @@ th {
 a[href^="#fn:"],
 // Back to footnote link
 a[href^="#fnref:"] {
-  margin-left: .1rem;
+  margin-left: 0.1rem;
 }
 
 // List of footnotes
