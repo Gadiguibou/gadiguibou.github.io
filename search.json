@@ -55,6 +55,15 @@
     } ,
   
     {
+      "title"            : "From zero to Tailscale in five minutes",
+      "category"         : "",
+      "tags"             : "",
+      "url"              : "/notes/tailscale.html",
+      "last_modified_at" : "2022-03-18",
+      "content"          : "I just set up tailscale on my laptop and on my phone.It was as simple as:  Going to their website   Pressing that big blue button with “Use Tailscale”  Logging in with SSO (GitHub, Google, or Microsoft)  Copying and pasting the installer’s command in my terminal (curl -fsSL https://tailscale.com/install.sh | sh) and installing their app from the Play Store  Logging in again on the devicesThere wasn’t any hiccup, lag, or distraction in that process. No trying to upsell me on a paid plan, no having me redirected to their documentation trying to find what really is the recommended way to install it, not even having me change anything about my network config.And it just worked! I can ping my phone using the new IP, I can check that the IP really is unavailable to anyone outside of the network, I can serve my files over HTTP with sudo python3 -m http.server 80, and I can even add a simple A record to my DNS provider to get a public hostname that’s easier to remember (although that’s Cloudflare’s infrastructure, also an amazing service 😊).I was even redirected to the right documentation page right away at the end of the setup and greeted by the cleanest, most straightforward, responsive, and intuitive admin dashboard that I’ve ever interacted with.Makes me want to pay for their service…1            Tailscale blog - How our free plan stays free &#8617;      "
+    } ,
+  
+    {
       "title"            : "The End Of Yet Another Semester",
       "category"         : "",
       "tags"             : "",
@@ -96,7 +105,7 @@
         "tags"             : "",
         "url"              : "/archive",
         "last_modified_at" : "2021-01-13",
-        "content"          : "The Archive shows the latest changes to the notes.\n\nThe wiki uses the YYYY-MM-DD time format.\n\n\n\n    \n    The End Of Yet Another Semester — last update [2021-04-28]\n    \n\n    \n    New Songs To Drown Out The Noise — last update [2021-02-06]\n    \n\n    \n    Space Songs — last update [2021-02-02]\n    \n\n    \n    Music To Help Soothe Lonely Hearts — last update [2021-02-02]\n    \n\n    \n    A Mixtape For Walking Around The City — last update [2021-01-29]\n    \n\n    \n    Windows 10 Tweaks To Make It Bearable — last update [2021-01-17]\n    \n\n    \n    A New Start — last update [2021-01-09]\n    \n\n    \n    Example content — last update [2021-01-08]\n    \n\n\n"
+        "content"          : "The Archive shows the latest changes to the notes.\n\nThe wiki uses the YYYY-MM-DD time format.\n\n\n\n    \n    From zero to Tailscale in five minutes — last update [2022-03-18]\n    \n\n    \n    The End Of Yet Another Semester — last update [2021-04-28]\n    \n\n    \n    New Songs To Drown Out The Noise — last update [2021-02-06]\n    \n\n    \n    Space Songs — last update [2021-02-02]\n    \n\n    \n    Music To Help Soothe Lonely Hearts — last update [2021-02-02]\n    \n\n    \n    A Mixtape For Walking Around The City — last update [2021-01-29]\n    \n\n    \n    Windows 10 Tweaks To Make It Bearable — last update [2021-01-17]\n    \n\n    \n    A New Start — last update [2021-01-09]\n    \n\n    \n    Example content — last update [2021-01-08]\n    \n\n\n"
      
    } ,
   

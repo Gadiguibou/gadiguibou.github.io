@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang=" en">
+
+<head>
+  
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>
+    
+    From zero to Tailscale in five minutes - Gabriel Lacroix
+    
+  </title>
+
+  <link rel="stylesheet" href="/assets/css/styles.css">
+
+  <!-- Begin Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+  <meta name="apple-mobile-web-app-title" content="Gabriel's Website">
+  <meta name="application-name" content="Gabriel's Website">
+  <meta name="msapplication-TileColor" content="#2d89ef">
+  <meta name="theme-color" content="#ffffff">
+  <!-- End Icons -->
+
+  
+
+  <link type="application/atom+xml" rel="alternate" href="https://www.gabriellacroix.com/feed.xml" title="Gabriel Lacroix" />
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>From zero to Tailscale in five minutes | Gabriel Lacroix</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="From zero to Tailscale in five minutes" />
+<meta name="author" content="Gabriel Lacroix" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I just set up tailscale on my laptop and on my phone." />
+<meta property="og:description" content="I just set up tailscale on my laptop and on my phone." />
+<link rel="canonical" href="https://www.gabriellacroix.com/notes/tailscale.html" />
+<meta property="og:url" content="https://www.gabriellacroix.com/notes/tailscale.html" />
+<meta property="og:site_name" content="Gabriel Lacroix" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-03-18T11:35:07-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="From zero to Tailscale in five minutes" />
+<script type="application/ld+json">
+{"url":"https://www.gabriellacroix.com/notes/tailscale.html","description":"I just set up tailscale on my laptop and on my phone.","@type":"BlogPosting","author":{"@type":"Person","name":"Gabriel Lacroix"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.gabriellacroix.com/notes/tailscale.html"},"headline":"From zero to Tailscale in five minutes","dateModified":"2022-03-18T11:19:22-04:00","datePublished":"2022-03-18T11:35:07-04:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+<body>
+
+  <header>
+<a href="/" class="img-link">
+  <picture>
+    <source
+      srcset="/assets/images/header-img-dark.svg"
+      media="(prefers-color-scheme: dark)">
+    <img
+      src="/assets/images/header-img.svg"
+      alt="Website Logo"
+      height="100"
+      width="100">
+  </picture>
+</a>
+<nav>
+  <ol>
+    
+    <li><a href="/">Home</a></li>
+    
+    <li><a href="/archive.html">Archive</a></li>
+    
+    <li><a href="/about.html">About</a></li>
+    
+    <li><a href="/meta.html">Meta</a></li>
+    
+  </ol>
+</nav>
+<div class="site-title">
+  <h2><a href="/" title="Home">Gabriel Lacroix</a></h2>
+  <p>Books, music and terminals</p>
+</div>
+</header>
+
+  <div class="search-div">
+  <!-- HTML elements for search -->
+  <input type="text" id="search-input" placeholder="Search notes...">
+  <ul id="results-container"></ul>
+
+  <!-- Search script source -->
+  <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+  <script type="text/javascript">
+    SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      json: '/search.json',
+      searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+      noResultsText: 'No results found',
+      limit: 10,
+      fuzzy: false,
+    })
+  </script>
+</div>
+
+  <hr>
+
+  <main>
+    <h1>From zero to Tailscale in five minutes</h1>
+
+<p>I just set up tailscale on my laptop and on my phone.</p>
+
+<p>It was as simple as:</p>
+
+<ol>
+  <li>Going to <a href="https://tailscale.com/">their website</a>
+ <img src="/assets/images/tailscale-homepage.png" alt="The Tailscale home page" /></li>
+  <li>Pressing that big blue button with “Use Tailscale”</li>
+  <li>Logging in with SSO (GitHub, Google, or Microsoft)</li>
+  <li>Copying and pasting the installer’s command in my terminal (<code class="language-plaintext highlighter-rouge">curl -fsSL https://tailscale.com/install.sh | sh</code>) and installing their app from the Play Store</li>
+  <li>Logging in again on the devices</li>
+</ol>
+
+<p>There wasn’t any hiccup, lag, or distraction in that process. No trying to upsell me on a paid plan, no having me redirected to their documentation trying to find what really is the recommended way to install it, not even having me change anything about my network config.</p>
+
+<p>And it just worked! I can ping my phone using the new IP, I can check that the IP really is unavailable to anyone outside of the network, I can serve my files over HTTP with <code class="language-plaintext highlighter-rouge">sudo python3 -m http.server 80</code>, and I can even add a simple A record to my DNS provider to get a public hostname that’s easier to remember (although that’s Cloudflare’s infrastructure, also an amazing service 😊).</p>
+
+<p>I was even redirected to the right documentation page right away at the end of the setup and greeted by the cleanest, most straightforward, responsive, and intuitive admin dashboard that I’ve ever interacted with.</p>
+
+<p><img src="/assets/images/tailscale-admin-dashboard.png" alt="The Tailscale admin dashboard" /></p>
+
+<p>Makes me want to pay for their service…<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p><a href="https://tailscale.com/blog/free-plan/">Tailscale blog - How our free plan stays free</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+
+<p><i>Last updated on <a href="/archive"><time datetime="2022-03-18T11:19:22-04:00">2022-03-18</time></a>.</i></p>
+  </main>
+
+  <hr>
+
+  <footer>
+  <small>
+    &copy; <time datetime="2022-03-18T11:35:07-04:00">2022</time>. All rights reserved.
+  </small>
+</footer>
+
+</body>
+
+</html>
