@@ -1,0 +1,22 @@
+{
+  "name": "gadiguibou.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gadiguibou/gadiguibou.github.io.git"
+  },
+  "author": "Gabriel Lacroix",
+  "bugs": {
+    "url": "https://github.com/Gadiguibou/gadiguibou.github.io/issues"
+  },
+  "homepage": "https://github.com/Gadiguibou/gadiguibou.github.io#readme",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1"
+  }
+}
